@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+}
+
+
+
+
+
+/*** 네비게이션 ***/
+
+nav {
+    overflow: hidden;
+    height: 64px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    overflow: hidden;
+    height: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    width: auto;
+    padding-left: 8px;
+    margin: 0 auto; 
+}
+
+.navList {
+    float: right;
+    padding-top: 8px;
+    padding-right: 20px;
+    color: #293244;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navList-li {
+    float: left;
+}
+
+.navList-li-a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.navList-li-a:visited {
+    color: #293244;
+}
+
+.navList-li-a:hover {
+    color: #ffc437;
+}
+
+.navList-li-a:link {
+    color: #293244;
+}
+
+
+
+
+/*** portfolio-list ***/
+
+.portfolioList {
+   position: absolute;
+   top: 15%;
+   right: 0px;
+   background-color: #ffc437;
+   width: 85%;
+   height: 65%;
+}
+
+.portfolioList-box {
+    display: inline-block;
+    background-color: #293244;
+    width: 25%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.nameOfList {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+
+}
+
+.nameOfList > img {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    height: 15px;
+}
+
+.listImg {
+    max-width: 100%;
+    min-width: 100%;    
+}
+
+
+.allOfMyDesign {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    max-height: 3.5%;
+    min-height: 3.5%;
+    
+}
+
+
+/*** 이미지 중앙정렬 ***/
+
+.imageCenter {
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.imageAllCenter {
+    position:absolute;
+    max-width:100%; max-height:100%;
+    
+    width:auto; height:auto;
+    margin: auto;
+    top:0; bottom:0; left:0; right:0;
+    
+}
+
+.imageAllCenter2 {
+    display: inline-block;
+}

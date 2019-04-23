@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+}
+
+
+
+
+
+/*** 네비게이션 ***/
+
+nav {
+    overflow: hidden;
+    height: 64px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    overflow: hidden;
+    height: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    width: auto;
+    padding-left: 8px;
+    margin: 0 auto; 
+}
+
+.navList {
+    float: right;
+    padding-top: 8px;
+    padding-right: 20px;
+    color: #293244;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navList-li {
+    float: left;
+}
+
+li {
+    float: left;
+}
+
+.navList-li-a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.navList-li-a:visited {
+    color: #293244;
+}
+
+.navList-li-a:hover {
+    color: #ffc437;
+}
+
+.navList-li-a:link {
+    color: #293244;
+}
+
+
+
+
+/*** 포폴목록 ***/
+.contents-box {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.work-box {
+    display: inline-block;
+    background-color: #ffffff;
+    
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.work-box > img {
+    width: 100%;
+    margin: -2px 0;
+}
+
+
+
+/*** 동영상 링크 ***/
+
+a {
+    text-decoration: none;
+}
+.link-a {
+    color: #333333;
+}
+.link-a:visited {
+    color: #333333;
+}
+.link-a:hover {
+    color: #ffc437;
+}
+
+
+/*** 탑버튼 ***/
+
+.topbutton-a {
+    display:scroll; position:fixed; bottom:40px; right:30px;
+}
+
+
+
+
+/*** 이미지 중앙정렬 ***/
+
+.imageCenter {
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.imageAllCenter {
+    position:absolute;
+    max-width:100%; max-height:100%;
+    
+    width:auto; height:auto;
+    margin: auto;
+    top:0; bottom:0; left:0; right:0;
+    
+}
+
+.imageAllCenter2 {
+    display: inline-block;
+}
