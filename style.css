@@ -1,0 +1,91 @@
+html { 
+    background: url(images/main-background-1920-1080-2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+
+
+/*** 네비게이션 ***/
+
+nav {
+    overflow: hidden;
+    height: 64px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.logo {
+    height: 60px;
+    padding-left: 8px;
+}
+
+.navList {
+    float: right;
+    padding-top: 8px;
+    padding-right: 20px;
+    color: white;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.navList-li {
+    float: left;
+}
+
+.navList-li-a {
+    text-decoration: none;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.navList-li-a:visited {
+    color: #ffffff;
+}
+
+.navList-li-a:hover {
+    color: #ffc437;
+}
+
+.navList-li-a:link {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/*** 이미지 중앙정렬 ***/
+
+.imageCenter {
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+.imageAllCenter {
+    position:absolute;
+    max-width:100%; max-height:100%;
+    width:auto; height:auto;
+    margin:auto;
+    top:0; bottom:0; left:0; right:0;
+}
+
