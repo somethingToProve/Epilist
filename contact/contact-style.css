@@ -1,5 +1,5 @@
 html { 
-    background: url(images/창밖을보다.jpg) no-repeat center center fixed; 
+    background: url(images/main-background-1920-1080-4.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,14 +19,14 @@ body {
 /*** 네비게이션 ***/
 
 nav {
-    overflow: hidden;
     height: 64px;
-    padding-top: 10px;
+    padding-top: 25px;
     padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 5px;
+    padding-left: 30px;
+    padding-right: 15px;
     font-family: 'Roboto', sans-serif;
 }
+
 
 .logo {
     height: 60px;
@@ -43,7 +43,7 @@ nav {
 ul {
     margin: 0px;
     list-style-type: none;
-    overflow: hidden;
+    
 }
 
 .navList-li {
@@ -64,11 +64,12 @@ ul {
     color: #ffc437;
 }
 
-.portfolioNav-a:link {
+.navList-li-a:link {
     color: #ffffff;
 }
 
 
+/*** contents ***/
 
 .contents {
     position: absolute;
